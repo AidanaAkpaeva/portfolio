@@ -1,0 +1,81 @@
+@import "./../scss/colors.scss";
+// global
+.container-title {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  color: $textColor;
+  border-bottom: 1px solid $textColor;
+  margin-bottom: 20px;
+}
+
+// home
+.home-container {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home-title {
+  font-family: AlexBrush;
+  font-size: 82px;
+  line-height: 90px;
+  color: $textColor;
+}
+
+.home-subtitle {
+  color: $textColor;
+}
+
+// about
+
+// skills
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: $navbar-color;
+}
+
+.skills-list {
+  font-size: 22px;
+  text-align: left;
+  font-weight: 700;
+  list-style-type: "> ";
+}
+
+.skills-item {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+// contacts
+.contacts-socials {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+}
+
+.contacts-link {
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.contacts-link:hover svg path {
+  fill: $textColor;
+}
+
+// notfound
+.notfound {
+  font-size: 32px;
+  font-size: 600;
+  color: $navbar-color;
+}

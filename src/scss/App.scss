@@ -1,0 +1,33 @@
+@import "./reset.scss";
+@import "./colors.scss";
+
+@font-face {
+  font-family: Poppins;
+  src: url(./../font/Poppins-Regular.otf);
+}
+
+@font-face {
+  font-family: AlexBrush;
+  src: url(./../font/AlexBrush-Regular.ttf);
+}
+
+body {
+  font-family: Poppins;
+  background-color: $mainColor;
+  overflow: hidden;
+  height: 90vh;
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.active {
+  color: $textColor;
+}
