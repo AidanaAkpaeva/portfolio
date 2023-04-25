@@ -1,10 +1,9 @@
 import { ParallaxLayer } from "@react-spring/parallax";
 import GitHubSVG from "../imageJSX/gitHubSVG";
 import TgSVG from "../imageJSX/tgSVG";
+import urlGrass from "./../image/grass.svg";
 
 const Contacts = ({ handleContacts }) => {
-  const urlGrass = "./src/image/grass.svg";
-
   return (
     <ParallaxLayer offset={3} speed={0.8} onClick={handleContacts}>
       <div className="contacts-wrapper offset">
