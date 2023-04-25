@@ -1,7 +1,7 @@
 import { ParallaxLayer } from "@react-spring/parallax";
-const Clouds = () => {
-  const urlCloud = "./../image/cloud.svg";
+import urlCloud from "./src/image/cloud.svg";
 
+const Clouds = () => {
   return (
     <>
       <ParallaxLayer offset={0.1} speed={-0.1} style={{ opacity: 0.4 }}>
