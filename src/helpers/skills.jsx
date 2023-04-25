@@ -15,7 +15,7 @@ const skills = [
   {
     id: "2",
     name: "Other",
-    skill: ["Version control/Git", "Adaptive design", "BEM"],
+    skill: ["Version control/Git", "Adaptive design", "BEM", "REST API"],
   },
 ];
 

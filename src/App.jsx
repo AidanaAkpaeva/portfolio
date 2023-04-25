@@ -1,17 +1,10 @@
-import { BrowserRouter as Router } from "react-router-dom";
-import { AppRouter } from "./router/AppRouter";
-
-import Navbar from "./components/Navbar/Navbar";
-
 import "./scss/App.scss";
+import MainPage from "./components/MainPage";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Navbar />
-        <AppRouter />
-      </Router>
+      <MainPage />
     </div>
   );
 }
