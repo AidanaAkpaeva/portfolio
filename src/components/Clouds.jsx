@@ -1,5 +1,5 @@
 import { ParallaxLayer } from "@react-spring/parallax";
-import urlCloud from "./src/image/cloud.svg";
+import urlCloud from "./../image/cloud.svg";
 
 const Clouds = () => {
   return (
