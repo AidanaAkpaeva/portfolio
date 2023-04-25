@@ -2,7 +2,7 @@ import React, { useRef } from "react";
 import { Parallax } from "@react-spring/parallax";
 import "./../scss/style.scss";
 
-import Clouds from "./Clouds/Clouds";
+import Clouds from "./Clouds";
 
 import About from "./../components/About";
 import Home from "./../components/Home";
